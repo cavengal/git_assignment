@@ -42,8 +42,11 @@ f. What does git diff do?
 2. It can display differences between changes in the staging area (index) and the last commit.<br>
 3. You can specify particular files or directories to see differences.<br>
 4. It compares changes between different commits, branches, or commits and branches.<br>
-5. By default, it outputs differences in the unified diff format, showing added and removed lines.<br>
+5. By default, it outputs differences in the unified diff format, showing added and removed lines.<br><br>
 
 g. What is the main branch?
+<br> The main branch in a Git repository serves as the primary line of development and typically holds the most stable and up-to-date version of the project's codebase. It is where new features are integrated, bug fixes are applied, and it acts as the source of truth for the project's code. Developers merge their changes into the main branch once they are complete and tested, and it is often used as the starting point for creating release branches or tags. The main branch plays a central role in the development workflow, providing stability and integration for the project.<br><br>
 
 h. Besides our initial commit if it is a new repository, should we directly push our changes directly into the main branch?
+
+<br>Given the previous answer, we should not. It's best practice to avoid pushing changes directly into the main branch of a Git repository, as using feature branches and pull requests facilitates code isolation, code review, collaboration, and ensures code quality. Feature branches provide a controlled environment for developing new features or fixes before integrating them into the stable main branch, maintaining project stability and enabling effective team collaboration.
